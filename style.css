@@ -19,11 +19,11 @@ output gallery shall use 50% of your total screen/browser size
 
 /* somewhere the img height was limited to 55vh... */
 #txt2img_gallery > div.fixed-height.preview, #img2img_gallery > div.fixed-height.preview {
-    max-height: none !important;
+    max-height: 100% !important;
 }
 
 #txt2img_gallery > div.grid-wrap.fixed-height, #img2img_gallery > div.grid-wrap.fixed-height {
-    max-height: none !important;
+    max-height: 100% !important;
 }
 
 #quicksettings > div, #quicksettings > fieldset {
@@ -52,8 +52,8 @@ output gallery shall use 50% of your total screen/browser size
 
 /* same height as tool icons */
 #txt2img_generate, #img2img_generate, #txt2img_skip, #txt2img_interrupt {
-    min-height: 2.4em !important;
-    height: 2.4em !important;
+    min-height: 4.45em !important;
+    height: 4.45em !important;
     flex: 0 !important;
     align-content: center;
     bottom: 0px;
